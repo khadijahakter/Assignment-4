@@ -5,6 +5,7 @@ const posterQuote = document.getElementById("poster-quote");
 const posterTitle = document.getElementById("poster-title");
 const posterImage = document.getElementById("poster-image");
 
+const formImage = document.getElementById("poster-form-image")
 const formQuote = document.getElementById("poster-form-quote");
 const formTitle = document.getElementById("poster-form-title");
 const randomButton = document.getElementById('randomize');
@@ -23,7 +24,7 @@ const posters = [
         quote: 'Three things matter in a speech: who says it, how he says it, and what he says, and of the three, the last matters least.',
     },
     {
-        image: 'https://media.istockphoto.com/id/157605739/photo/goggles.jpg?s=612x612&w=0&k=20&c=OkJO32XF7rgBKUQH3jkKgAkCWdplvTjdYSDr8bcu7vo=',
+        image: 'https://images.unsplash.com/photo-1498595707991-4fc87268b184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNDI0MzY2fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60',
         title: 'Milky Way Panorma',
         quote: 'How we spend our days is, of course, how we spend our lives.',
     },
@@ -71,10 +72,12 @@ function generateCustomPoster(event) {
     // TODO: Retrieve the entered quote and title from the input fields
     const newQuote = formQuote.value;
     const newTitle = formTitle.value;
+    const newImage = formImage.value;
+
 
     // TODO: Create a custom poster object with the entered values
     const customPoster = {
-        image: "https://images.unsplash.com/photo-1611794485509-701be5a5d4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2NlYW4lMjBibHVlfGVufDB8fDB8fHww&w=1000&q=80", 
+        image: newImage, 
         title: newTitle,
         quote: newQuote
     };
