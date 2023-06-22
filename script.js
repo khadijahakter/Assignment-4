@@ -27,6 +27,21 @@ const posters = [
         title: 'Milky Way Panorma',
         quote: 'How we spend our days is, of course, how we spend our lives.',
     },
+    {
+        image: 'https://images.unsplash.com/photo-1686836342891-6d1b01101f3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
+        title: 'Pointing at the stars',
+        quote: 'How we spend our days is, of course, how we spend our lives.',
+    },
+    {
+        image: 'https://images.unsplash.com/photo-1686900248731-5a492eb9a5e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        title: 'A beach with chairs and umbrellas at sunset',
+        quote: '“Stars are meant to shine in the night sky. Be among the stars. Shine bright!”',
+    },
+    {
+        image: 'https://plus.unsplash.com/premium_photo-1675756583711-ce312872227b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+        title: 'A sky filled with stars',
+        quote: '“Don’t let your dreams be forsaken by the starry nights”',
+    },
 ];
 
 // Event listener for randomize button

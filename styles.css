@@ -12,7 +12,7 @@ body {
   .poster {
     margin: 20px;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid green;
     border-radius: 5px;
     text-align: center;
   }
@@ -37,7 +37,7 @@ body {
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: green;
     color: #fff;
     border: none;
     border-radius: 5px;
